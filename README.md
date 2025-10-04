@@ -726,21 +726,7 @@ black agentmap/
 - Add docstrings
 - Write tests for new features
 
----
 
-## 🎓 Citation
-
-If you use AgentMap in your research, please cite:
-
-```bibtex
-@article{agentmap2025,
-  title={AgentMap: Deterministic Agent Framework Achieving State-of-the-Art Performance with 100\% Reproducibility},
-  author={[Your Name]},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025},
-  note={WorkBench: 47.1\% (vs GPT-4: 43\%), τ2-bench: 100\% (vs Claude: 84.7\%)}
-}
-```
 
 ### Key Papers
 
@@ -852,7 +838,7 @@ SOFTWARE.
 
 If you find AgentMap useful, please consider starring the repository!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/agentmap&type=Date)](https://star-history.com/#yourusername/agentmap&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/agentmap&type=Date)](https://star-history.com/#alokranjan-agp/agentmap&Date)
 
 ---
 
