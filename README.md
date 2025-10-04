@@ -766,18 +766,6 @@ If you use AgentMap in your research, please cite:
 
 ---
 
-## 📞 Contact & Support
-
-### Get Help
-
-- **Issues:** [GitHub Issues](https://github.com/yourusername/agentmap/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/yourusername/agentmap/discussions)
-- **Email:** [your-email@example.com]
-
-### Stay Updated
-
-- **Twitter:** [@yourusername]
-- **Blog:** [your-blog-url]
 - **Paper:** Coming soon on arXiv
 
 ---
