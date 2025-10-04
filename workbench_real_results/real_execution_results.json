@@ -1,0 +1,22 @@
+{
+  "benchmark": "WorkBench",
+  "execution_type": "REAL",
+  "timestamp": "2025-10-04T14:20:45.031508",
+  "configuration": {
+    "caching_enabled": true,
+    "total_tasks": 690
+  },
+  "metrics": {
+    "accuracy": 0.47101449275362317,
+    "successful": 325,
+    "failed": 365,
+    "cache_hit_rate": 0.0,
+    "determinism": 1.0
+  },
+  "comparison_to_baselines": {
+    "gpt4_react": {
+      "accuracy": 0.43,
+      "agentmap_improvement": 4.1014492753623175
+    }
+  }
+}

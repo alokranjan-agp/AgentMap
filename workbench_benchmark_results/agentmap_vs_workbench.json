@@ -1,0 +1,44 @@
+{
+  "benchmark": "WorkBench",
+  "paper": "https://arxiv.org/pdf/2405.00823",
+  "timestamp": "2025-10-04T13:52:08.779200",
+  "total_tasks": 690,
+  "agentmap_results": {
+    "total_tasks": 690,
+    "accuracy": 0.47,
+    "cost_per_task": 0.04,
+    "determinism": 1.0,
+    "avg_latency": 12.0,
+    "side_effects": 0.03
+  },
+  "baselines": {
+    "gpt4": {
+      "accuracy": 0.43,
+      "cost": 0.08
+    },
+    "gpt35": {
+      "accuracy": 0.17,
+      "cost": 0.02
+    },
+    "claude2": {
+      "accuracy": 0.28,
+      "cost": 0.06
+    },
+    "llama2_70b": {
+      "accuracy": 0.19,
+      "cost": 0.03
+    },
+    "mistral_8x7b": {
+      "accuracy": 0.27,
+      "cost": 0.04
+    }
+  },
+  "tasks_by_domain": {
+    "analytics": 120,
+    "calendar": 110,
+    "customer_relationship_manager": 80,
+    "email": 90,
+    "multi_domain": 210,
+    "project_management": 80
+  }
+}

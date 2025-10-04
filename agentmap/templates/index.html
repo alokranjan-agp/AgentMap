@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>AgentMap Dashboard</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 24px; }
+      .tile { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+      .tile h2 { margin: 0 0 8px 0; }
+      table { width: 100%; border-collapse: collapse; }
+      th, td { padding: 8px; border-bottom: 1px solid #eee; text-align: left; }
+      .controls { position: sticky; top: 0; background: #fff; padding: 8px 0; margin-bottom: 16px; }
+      button { padding: 8px 12px; border: 1px solid #ccc; border-radius: 8px; cursor: pointer; }
+      button:hover { background: #f5f5f5; }
+    </style>
+  </head>
+  <body>
+    <div class="controls">
+      <button onclick="step()">⚡ Step Telemetry</button>
+      <span id="status"></span>
+    </div>
+    <div id="tiles">
+      {% for t in tiles %}
+      <div class="tile">
+        <h2>Tile: {{ t.id }}</h2>
+        <table>
+          <thead>
+            <tr><th>Action</th><th>Latency (ms)</th><th>Cost (base)</th><th>Risk</th><th>Policies</th></tr>
+          </thead>
+          <tbody>
+            {% for a in t.actions %}
+            <tr>
+              <td>{{ a.id }}</td>
+              <td>{{ a.latency_ms }}</td>
+              <td>{{ a.cost_base }}</td>
+              <td>{{ a.risk }}</td>
+              <td>{{ a.policies|join(', ') }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% endfor %}
+    </div>
+    <script>
+      async function step() {
+        const res = await fetch('/api/telemetry/step', {method: 'POST'});
+        const out = await res.json();
+        document.getElementById('status').textContent = 'Telemetry stepped ✔';
+        setTimeout(()=>location.reload(), 300);
+      }
+    </script>
+  </body>
+</html>
