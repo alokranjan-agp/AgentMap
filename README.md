@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![WorkBench](https://img.shields.io/badge/WorkBench-47.1%25-brightgreen)](https://arxiv.org/pdf/2405.00823)
 [![τ2-bench](https://img.shields.io/badge/τ2--bench-100%25-brightgreen)](https://github.com/sierra-research/tau2-bench)
-[![Determinism](https://img.shields.io/badge/determinism-100%25-blue)](https://github.com/yourusername/agentmap)
+[![Determinism](https://img.shields.io/badge/determinism-100%25-blue)](https://github.com/alokranjan-agp/agentmap)
 
 ---
 
@@ -112,7 +112,7 @@ AgentMap provides 100% determinism while beating state-of-the-art models:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/agentmap.git
+git clone https://github.com/alokranjan-agp/agentmap.git
 cd agentmap
 
 # Install dependencies
@@ -690,7 +690,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/agentmap.git
+git clone https://github.com/alokranjan-agp/agentmap.git
 cd agentmap
 
 # Create virtual environment
@@ -763,7 +763,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2025 [Your Name]
+Copyright (c) 2025 [AgentsPanel]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -838,7 +838,7 @@ SOFTWARE.
 
 If you find AgentMap useful, please consider starring the repository!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/agentmap&type=Date)](https://star-history.com/#alokranjan-agp/agentmap&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=alokranjan-agp/agentmap&type=Date)](https://star-history.com/#alokranjan-agp/agentmap&Date)
 
 ---
 
